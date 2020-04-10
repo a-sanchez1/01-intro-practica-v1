@@ -10,6 +10,7 @@ public class ejercicio3 {
     public static void main(String[] args) {
         float[] temp = new float[24];
         Scanner sc = new Scanner(System.in);
+
         for (int i= 0; i<24 ;i++){
             System.out.println("decime cuantos grados hizo a las "+ (i+1) + "hs (decimales con ',')");
             float grados = sc.nextFloat();
