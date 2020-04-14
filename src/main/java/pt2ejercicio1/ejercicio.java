@@ -11,10 +11,14 @@ public class ejercicio {
         Scanner sc = new Scanner(System.in);
         char tipo;
         ArrayList<Empleado> listaEmpleados = new ArrayList<Empleado>();
-        for (int i = 0; i < 20; i++) {
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
+
+        for (int i = 0; i < 20; i++)
+        {
             System.out.println("ingresar Administrativo pulse 'A' o Vendedor pulse 'V' ");
             tipo = sc.next().toUpperCase().charAt(0);
-            switch (tipo){
+            switch (tipo)
+            {
                 case 'A':
                     listaEmpleados.add(new Administrativo());
                     break;

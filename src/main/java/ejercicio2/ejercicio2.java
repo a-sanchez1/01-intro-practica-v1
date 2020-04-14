@@ -13,7 +13,7 @@ public class ejercicio2 {
 
         for (int i=0 ;x.length>i ;i++){
             if(x[i]>n){
-                System.out.println(x[i]);
+                System.out.format("%d ,",x[i]);
             }
         }
 

@@ -11,7 +11,6 @@ public class Empleado {
     float sueldoBase;
 
     public Empleado(){
-
         System.out.print("DNI= ");
         this.dni = sc.nextInt();
         System.out.print("NOMBRE= ");
