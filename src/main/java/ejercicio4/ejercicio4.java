@@ -2,7 +2,7 @@ package ejercicio4;
 
 import com.sun.org.apache.xpath.internal.objects.XString;
 import com.sun.org.apache.xpath.internal.objects.XStringForChars;
-
+/*
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -17,7 +17,6 @@ public class ejercicio4 {
         String apellido = new String();
         ArrayList alumno = new ArrayList();
 
-
         while(letra !='e'){
            letra = sc.next();
            System.out.println("decime tu nombre : ");
@@ -31,3 +30,4 @@ public class ejercicio4 {
 }
 
 
+*/
