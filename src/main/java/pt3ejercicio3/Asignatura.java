@@ -29,7 +29,9 @@ public class Asignatura {
         alumnosInscriptos.add(a);
     }
 
-    public ArrayList<Alumno> getAlumnosInscriptos() {
-        return alumnosInscriptos;
+    public void getAlumnosInscriptos() {
+       for (Alumno al: alumnosInscriptos){
+           System.out.println(al.getNombre());
+       }
     }
 }

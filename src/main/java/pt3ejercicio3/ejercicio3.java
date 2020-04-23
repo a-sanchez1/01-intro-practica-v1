@@ -71,7 +71,7 @@ public class ejercicio3 {
 
         arrayAsignaturas.get(asig).agregarAlumno(arrayAlumnos.get(alum));
     }
-    public void listadoAlumnosEnAsignatura(){
+    public static void listadoAlumnosEnAsignatura(){
         System.out.println("Elija el numero de id de la asignatura va consultar: ");
         for (int i = 0; i < arrayAsignaturas.size(); i++) {
             System.out.println(i+1+". "+ arrayAsignaturas.get(i).getNombre());
@@ -79,9 +79,7 @@ public class ejercicio3 {
         int id = sc.nextInt();
 
         System.out.println("de la asignatura "+arrayAsignaturas.get(id-1).getNombre()+" los alumnos son: ");
-        for (al: arrayAsignaturas.get(id-1).getAlumnosInscriptos()) {
+        arrayAsignaturas.get(id-1).getAlumnosInscriptos();
 
-        }
     }
-
 }
